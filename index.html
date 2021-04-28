@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Koniec roku kalendarzowego.</title>
+	<meta name="description" content="Strona ukazuje czas do zakonczenia danego roku kalendarzowego." />
+	<meta name="keywords" content="czas, koniec roku kalendarzowego, kalendarz" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<script type="text/javascript" src="zegar.js"></script>
+
+	<style>
+	
+	    body
+		{
+		background-color: grey;
+		font-family: Verdana;
+		font-size: 24px;
+		color: black;
+		}
+		
+		#container
+		{
+			padding-top: 50px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom:50px;
+			background-color: silver;
+			margin: auto;
+			width: 1000px;
+		}
+		
+		#topBar
+		{
+			
+			color: black;
+			padding: 10px;
+			font-size: 18px;
+			text-align: center;
+			border: 3px solid blue;
+			letter-spacing: 3px;
+			margin-bottom: 50px;
+		}
+		
+		#aktualnaData
+		{
+			text-align: center;
+			border: 3px solid teal;
+		}
+
+		#dataWydarzenia
+		{
+			text-align: center;
+			border: 3px solid teal;
+		}
+		
+		#miesiaceDoWydarzenia
+		{
+			text-align: center;
+			border: 3px solid teal;
+		}
+		
+		#dniDoWydarzenia
+		{
+			text-align: center;
+			border: 3px solid teal;
+		}
+		
+		#godzinyDoWydarzenia
+		{
+			text-align: center;
+			border: 3px solid teal;
+		}
+		#minutyDoWydarzenia
+		{
+			text-align: center;
+			border: 3px solid teal;
+		}
+		#sekundyDoWydarzenia
+		{
+			text-align: center;
+			border: 3px solid teal;
+		}
+		
+		#footer
+		{
+			color: black;
+			margin-top: 50px;
+			padding: 10px;
+			font-size: 18px;
+			text-align: center;
+			border: 3px solid blue;
+			letter-spacing: 3px;
+		}
+		
+	</style>
+	
+</head>
+<body>
+
+<div id="container">
+
+	<div id="topBar">
+		<strong>Strona ta oblicza ile dni, godzin, minut i sekund pozostało do końca danego roku.</strong>
+	</div>
+	
+	<div id="aktualnaData">...</div> 
+
+	<br/>
+	
+	<div id="dataWydarzenia">...</div>
+	
+    <br/><br/>
+	
+	<div id="miesiaceDoWydarzenia">...</div>
+	
+	<br/>
+	
+	<div id="dniDoWydarzenia">...</div>
+	
+	<br/>	
+	
+	<div id="godzinyDoWydarzenia">...</div>
+	
+	<br/>	
+	
+	<div id="minutyDoWydarzenia">...</div>
+	
+	<br/>	
+	
+	<div id="sekundyDoWydarzenia">...</div>
+	
+	<script type="text/javascript" >
+		odliczanie();
+	</script>
+	
+    <div id="footer">
+		<strong>&lt;koduj&gt; Moja nauka programowania w SLO. &lt;koduj&gt;</strong>
+	</div>
+	
+</div>
+
+</body>
+</html>
